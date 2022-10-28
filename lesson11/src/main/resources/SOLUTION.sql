@@ -1,4 +1,4 @@
-update SUBJECT set GRADE = 5 where NAME = '‘End of Suburbia: Oil Depletion and the Collapse of the American Dream';
+update SUBJECT set GRADE = 5 where NAME = 'End of Suburbia: Oil Depletion and the Collapse of the American Dream';
 
 update STUDENT set GROUPNUMBER=8 where NAME = 'Tremaine Worvill';
 
