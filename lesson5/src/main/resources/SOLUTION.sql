@@ -1,0 +1,18 @@
+select * from PAYMENT where AMOUNT >= 500;
+
+select * from STUDENT where DATEDIFF(YEAR, BIRTHDAY, NOW()) > 20;
+
+select * from STUDENT
+where GROUPNUMBER = 10 AND DATEDIFF(YEAR, BIRTHDAY, NOW()) < 20;
+
+select * from STUDENT
+where NAME like 'Mike %' or GROUPNUMBER in (4, 5, 6);
+
+select * from STUDENT where BIRTHDAY >= DATEADD(MONTH, -8, NOW());
+
+select * from STUDENT
+where NAME like 'A%';
+
+select * from STUDENT
+where (NAME like 'Roxi %' and GROUPNUMBER = 4) or
+      (NAME like 'Tallie %' and GROUPNUMBER = 9);
