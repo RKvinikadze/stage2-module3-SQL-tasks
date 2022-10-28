@@ -1,6 +1,4 @@
-insert into STUDENT(name, birthday, groupnumber)
-values
-('John', '2000-01-01', 1),
+insert into STUDENT(name, birthday, groupnumber) values ('John', '2000-01-01', 1),
 ('Chris', '1999-05-12', 3),
 ('Carl', '2002-02-28', 4),
 ('Oliver', '2008-01-31', 2),
@@ -21,8 +19,7 @@ values
 ('Freddy', '2003-08-21', 3);
 
 insert into SUBJECT(name, description, grade)
-values
-('Art', 'art', 1),
+values ('Art', 'art', 1),
 ('Music', 'music', 1),
 ('Geography', 'geography', 2),
 ('History', 'history', 2),
@@ -33,15 +30,11 @@ values
 ('Literature', 'literature', 5),
 ('Physics', 'physics', 5);
 
-insert into PAYMENTTYPE(NAME)
-values
-('DAILY'),
+insert into PAYMENTTYPE(NAME) values ('DAILY'),
 ('WEEKLY'),
 ('MONTHLY');
 
-insert into PAYMENT(TYPE_ID, AMOUNT, PAYMENT_DATE, STUDENT_ID)
-VALUES
-(2, 101.12, '2022-10-01', 1),
+insert into PAYMENT(TYPE_ID, AMOUNT, PAYMENT_DATE, STUDENT_ID) VALUES (2, 101.12, '2022-10-01', 1),
 (3, 231.21, '2022-10-05', 4),
 (2, 100.00, '2022-10-08', 7),
 (1, 31.15, '2022-10-01', 5),
@@ -50,9 +43,7 @@ VALUES
 (2, 123.32, '2022-10-01', 10),
 (3, 237.11, '2022-10-01', 19);
 
-insert into MARK(STUDENT_ID, SUBJECT_ID, MARK)
-values
-(2, 1, 8),
+insert into MARK(STUDENT_ID, SUBJECT_ID, MARK) values (2, 1, 8),
 (4, 4, 5),
 (5, 3, 9),
 (8, 6, 4),
