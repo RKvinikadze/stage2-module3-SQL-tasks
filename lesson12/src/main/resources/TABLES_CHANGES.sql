@@ -1,5 +1,3 @@
-select * from student;
-
 alter table MARK drop constraint if exists mark_student_id_fkey;
 
 alter table MARK add constraint mark_student_id_fkey foreign key (student_id) references student(id) on delete cascade;
