@@ -46,7 +46,7 @@ insert into MARK(ID, STUDENT_ID, SUBJECT_ID, MARK) values (1, 2, 1, 8);
 insert into MARK(ID, STUDENT_ID, SUBJECT_ID, MARK) values (2, 4, 4, 5);
 insert into MARK(ID, STUDENT_ID, SUBJECT_ID, MARK) values (3, 5, 3, 9);
 insert into MARK(ID, STUDENT_ID, SUBJECT_ID, MARK) values (4, 8, 6, 4);
-insert into MARK(ID, STUDENT_ID, SUBJECT_ID, MARK) values (5, 9, 3, 9);
+insert into MARK(ID, STUDENT_ID, SUBJECT_ID, MARK) values (5, 9, 5, 9);
 insert into MARK(ID, STUDENT_ID, SUBJECT_ID, MARK) values (6, 1, 2, 9);
 insert into MARK(ID, STUDENT_ID, SUBJECT_ID, MARK) values (7, 3, 1, 8);
 insert into MARK(ID, STUDENT_ID, SUBJECT_ID, MARK) values (8, 6, 3, 7);

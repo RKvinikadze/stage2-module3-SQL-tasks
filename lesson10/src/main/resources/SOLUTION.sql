@@ -3,5 +3,6 @@ select S.ID, S.NAME, DESCRIPTION, GRADE from SUBJECT S inner join (
 ) SS on S.ID = SS.SUBJECT_ID;
 
 select S.ID, S.NAME, BIRTHDAY, GROUPNUMBER from STUDENT S inner join (
-    select STUDENT_ID from PAYMENT group by STUDENT_ID having avg(AMOUNT) > (select avg(AMOUNT) from PAYMENT)
+    select STUDENT_ID from PAYMENT group by STUDENT_ID having avg(AMOUNT) < (select avg(AMOUNT) from PAYMENT)
 ) P on S.ID = P.STUDENT_ID;
+
